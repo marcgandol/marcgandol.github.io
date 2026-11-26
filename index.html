@@ -1,0 +1,1746 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>脱下班花的袜子_职场解压视频_脱袜短剧合集</title>
+  <meta name="description" content="脱下班花的袜子是一个聚焦职场解压与日常幽默的短视频品牌，提供脱袜短剧、办公室情景喜剧、幕后花絮、观众评论与每周更新榜单。适合喜欢轻松解压内容的上班族和短剧爱好者观看。">
+  <meta name="keywords" content="职场解压短剧,脱袜情景喜剧,办公室幽默视频,下班轻松时刻,短剧更新榜单">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --brand-primary: #2e5a4c;
+      --brand-primary-light: #3e7a66;
+      --brand-secondary: #e86f4a;
+      --brand-secondary-soft: #fdf0e9;
+      --accent-gold: #d9a34a;
+      --accent-blue: #4a7a9c;
+      --surface-page: #f8f6f2;
+      --surface-card: #ffffff;
+      --surface-muted: #efede8;
+      --border-light: #e2ded7;
+      --text-primary: #1e2b27;
+      --text-secondary: #4f5e58;
+      --text-tertiary: #7f8c86;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.05);
+      --font-sans: 'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+      --max-width: 1360px;
+      --header-height: 68px;
+      --announcement-height: 40px;
+      --sticky-offset: calc(var(--announcement-height) + var(--header-height));
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--sticky-offset);
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--surface-page);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-top: var(--sticky-offset);
+    }
+
+    a {
+      color: var(--brand-primary);
+      text-decoration: none;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--brand-secondary);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* 吸顶公告条 */
+    .announcement-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--announcement-height);
+      background: var(--brand-primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      z-index: 100;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+
+    .announcement-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .announcement-badge {
+      background: var(--brand-secondary);
+      color: #fff;
+      padding: 2px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-right: 12px;
+    }
+
+    /* 吸顶页头 */
+    .site-header {
+      position: fixed;
+      top: var(--announcement-height);
+      left: 0;
+      width: 100%;
+      height: var(--header-height);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-light);
+      z-index: 99;
+      display: flex;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 32px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .logo-mark svg {
+      width: 36px;
+      height: 36px;
+      display: block;
+    }
+
+    .logo-text {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--brand-primary);
+      letter-spacing: -0.5px;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+      margin-left: 24px;
+    }
+
+    .nav-links a {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      color: var(--brand-primary);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: var(--surface-muted);
+      border-radius: 30px;
+      padding: 6px 16px;
+      border: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .search-box:focus-within {
+      border-color: var(--brand-primary);
+      background: #fff;
+    }
+
+    .search-box input {
+      border: none;
+      background: transparent;
+      font-size: 14px;
+      padding: 4px 8px;
+      width: 150px;
+      outline: none;
+      color: var(--text-primary);
+    }
+
+    .search-box input::placeholder {
+      color: var(--text-tertiary);
+    }
+
+    .search-box button {
+      color: var(--brand-primary);
+      display: flex;
+      align-items: center;
+      padding: 2px;
+    }
+
+    .btn-outline {
+      border: 1.5px solid var(--brand-primary);
+      color: var(--brand-primary);
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+
+    .btn-outline:hover {
+      background: var(--brand-primary);
+      color: #fff;
+    }
+
+    /* 首屏 */
+    .hero {
+      padding: 48px 0 40px;
+      background: linear-gradient(145deg, #f0f7f3 0%, var(--surface-page) 70%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 48px;
+    }
+
+    .hero-content h1 {
+      font-size: 44px;
+      line-height: 1.2;
+      font-weight: 800;
+      color: var(--brand-primary);
+      letter-spacing: -1px;
+      margin-bottom: 16px;
+    }
+
+    .hero-desc {
+      font-size: 18px;
+      color: var(--text-secondary);
+      max-width: 540px;
+      margin-bottom: 28px;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--brand-primary);
+      color: #fff;
+      padding: 12px 32px;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: background 0.2s;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background: var(--brand-primary-light);
+    }
+
+    .hero-visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 主内容三栏布局 */
+    .main-layout {
+      display: grid;
+      grid-template-columns: 180px 1fr 260px;
+      gap: 32px;
+      padding: 40px 0 60px;
+    }
+
+    /* 左侧频道栏 */
+    .channel-sidebar {
+      position: sticky;
+      top: var(--sticky-offset);
+      align-self: start;
+    }
+
+    .channel-nav {
+      background: var(--surface-card);
+      border-radius: var(--radius-md);
+      padding: 16px 0;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-light);
+    }
+
+    .channel-nav h3 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-tertiary);
+      padding: 0 20px 12px;
+      font-weight: 600;
+    }
+
+    .channel-nav ul {
+      list-style: none;
+    }
+
+    .channel-nav li a {
+      display: block;
+      padding: 10px 20px;
+      font-size: 15px;
+      color: var(--text-secondary);
+      transition: background 0.2s, color 0.2s;
+      border-left: 3px solid transparent;
+    }
+
+    .channel-nav li a:hover {
+      background: var(--surface-muted);
+      color: var(--brand-primary);
+      border-left-color: var(--brand-secondary);
+    }
+
+    /* 中间主内容 */
+    .main-content {
+      min-width: 0;
+    }
+
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .section-header h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.5px;
+    }
+
+    .section-link {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--brand-primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .overview-text {
+      background: var(--surface-card);
+      padding: 28px 32px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-light);
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    .overview-text p {
+      margin-bottom: 12px;
+    }
+
+    .overview-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--surface-card);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border-light);
+      transition: transform 0.25s, box-shadow 0.25s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-card);
+    }
+
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      background: var(--brand-secondary-soft);
+      color: var(--brand-secondary);
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+    }
+
+    .card-title {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .card-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: 12px;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      border-top: 1px solid var(--border-light);
+      padding-top: 10px;
+    }
+
+    /* 紧凑列表 */
+    .list-compact {
+      background: var(--surface-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-light);
+      overflow: hidden;
+    }
+
+    .list-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-light);
+      transition: background 0.2s;
+    }
+
+    .list-item:last-child {
+      border-bottom: none;
+    }
+
+    .list-item:hover {
+      background: var(--surface-muted);
+    }
+
+    .list-num {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--brand-primary);
+      min-width: 32px;
+      opacity: 0.5;
+    }
+
+    .list-content {
+      flex: 1;
+    }
+
+    .list-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .list-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .list-date {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+    }
+
+    /* 分类入口 */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .category-item {
+      background: var(--surface-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--text-secondary);
+      transition: all 0.2s;
+    }
+
+    .category-item:hover {
+      background: var(--brand-primary);
+      color: #fff;
+      border-color: var(--brand-primary);
+    }
+
+    /* 深度解析 */
+    .deep-dive {
+      background: var(--surface-card);
+      border-radius: var(--radius-md);
+      padding: 32px;
+      border: 1px solid var(--border-light);
+    }
+
+    .deep-dive h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--brand-primary);
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+
+    .deep-dive h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .deep-dive p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 14px;
+    }
+
+    .deep-dive ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    .deep-dive li {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 6px;
+    }
+
+    /* FAQ */
+    .faq-list details {
+      background: var(--surface-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .faq-list summary {
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text-primary);
+    }
+
+    .faq-list summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-list summary::after {
+      content: '+';
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--brand-primary);
+      transition: transform 0.2s;
+    }
+
+    .faq-list details[open] summary::after {
+      content: '−';
+    }
+
+    .faq-answer {
+      padding: 0 20px 18px;
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      border-top: 1px solid var(--border-light);
+      padding-top: 16px;
+      margin-top: 0;
+    }
+
+    /* 评论 */
+    .comment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .comment-item {
+      background: var(--surface-card);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+      border: 1px solid var(--border-light);
+    }
+
+    .comment-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .comment-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--surface-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--brand-primary);
+    }
+
+    .comment-name {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .comment-text {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* 资讯 */
+    .news-item {
+      display: flex;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-img {
+      width: 120px;
+      height: 80px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .news-content {
+      flex: 1;
+    }
+
+    .news-title {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .news-date {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      margin-bottom: 4px;
+    }
+
+    .news-summary {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    /* 右侧辅助栏 */
+    .sidebar-right {
+      position: sticky;
+      top: var(--sticky-offset);
+      align-self: start;
+    }
+
+    .sidebar-widget {
+      background: var(--surface-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-light);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar-widget h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: var(--text-primary);
+    }
+
+    .rank-list {
+      list-style: none;
+    }
+
+    .rank-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--surface-muted);
+      font-size: 14px;
+    }
+
+    .rank-list li:last-child {
+      border-bottom: none;
+    }
+
+    .rank-num {
+      font-weight: 800;
+      color: var(--brand-secondary);
+      min-width: 20px;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag-cloud a {
+      background: var(--surface-muted);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      transition: background 0.2s;
+    }
+
+    .tag-cloud a:hover {
+      background: var(--brand-primary);
+      color: #fff;
+    }
+
+    /* 页尾 */
+    .site-footer {
+      background: var(--brand-primary);
+      color: #fff;
+      padding: 48px 0 32px;
+      margin-top: 20px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 32px;
+    }
+
+    .footer-brand .logo-text {
+      color: #fff;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .footer-brand p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
+      max-width: 280px;
+    }
+
+    .footer-col h4 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #fff;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: 8px;
+    }
+
+    .footer-col a {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* 搜索无结果 */
+    .no-results {
+      padding: 24px;
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 15px;
+      background: var(--surface-muted);
+      border-radius: var(--radius-sm);
+      display: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 1024px) {
+      .main-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .channel-sidebar {
+        position: static;
+        order: -1;
+      }
+
+      .channel-nav {
+        display: flex;
+        overflow-x: auto;
+        padding: 8px;
+        gap: 4px;
+        scrollbar-width: thin;
+      }
+
+      .channel-nav h3 {
+        display: none;
+      }
+
+      .channel-nav ul {
+        display: flex;
+        gap: 4px;
+      }
+
+      .channel-nav li a {
+        white-space: nowrap;
+        border-left: none;
+        border-bottom: 2px solid transparent;
+        padding: 8px 16px;
+        border-radius: 20px;
+      }
+
+      .channel-nav li a:hover {
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        background: var(--brand-primary);
+        color: #fff;
+      }
+
+      .sidebar-right {
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .sidebar-widget {
+        margin-bottom: 0;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .hero-content h1 {
+        font-size: 36px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 740px) {
+      .container {
+        padding: 0 16px;
+      }
+
+      .header-inner {
+        gap: 12px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .search-box input {
+        width: 100px;
+      }
+
+      .hero-content h1 {
+        font-size: 30px;
+      }
+
+      .hero-desc {
+        font-size: 16px;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .sidebar-right {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .comment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .news-item {
+        flex-direction: column;
+      }
+
+      .news-img {
+        width: 100%;
+        height: 140px;
+      }
+
+      .announcement-bar .container {
+        font-size: 12px;
+      }
+
+      .announcement-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .btn-primary,
+      .btn-outline {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+  <!-- 吸顶公告条 -->
+  <div class="announcement-bar">
+    <div class="container">
+      <div class="announcement-text">
+        <span class="announcement-badge">更新</span>
+        本周新增 12 条「脱袜短剧」档案 · 11 月 23 日上线《办公室脱袜夜》第 3 集
+      </div>
+      <a href="/#latest" style="color:#fff; font-size:13px; white-space:nowrap;">查看全部 →</a>
+    </div>
+  </div>
+
+  <!-- 吸顶页头 -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-area">
+        <div class="logo-mark">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <rect x="4" y="10" width="28" height="20" rx="6" fill="#2e5a4c" />
+            <path d="M12 10 L12 4 L24 4 L24 10" stroke="#d9a34a" stroke-width="3" stroke-linecap="round" />
+            <circle cx="14" cy="20" r="2.5" fill="#fdf0e9" />
+            <circle cx="22" cy="20" r="2.5" fill="#fdf0e9" />
+            <path d="M13 26 Q18 30 23 26" stroke="#fdf0e9" stroke-width="2" stroke-linecap="round" fill="none" />
+          </svg>
+        </div>
+        <span class="logo-text">脱下班花的袜子</span>
+      </div>
+      <nav aria-label="主导航">
+        <ul class="nav-links">
+          <li><a href="/#featured">精选</a></li>
+          <li><a href="/#latest">最新</a></li>
+          <li><a href="/#categories">分类</a></li>
+          <li><a href="/#deep-dive">深度解析</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box" role="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M21 21l-4.35-4.35" />
+          </svg>
+          <input type="search" id="searchInput" placeholder="搜索条目或类型" aria-label="搜索内容">
+          <button type="button" id="searchBtn" aria-label="搜索">→</button>
+        </div>
+        <a href="/#featured" class="btn-outline">开始观看</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>脱下班花的袜子</h1>
+        <p class="hero-desc">
+          聚焦职场解压与日常幽默的短视频品牌。从脱袜短剧、办公室情景喜剧到幕后花絮，
+          用轻松的方式记录下班后的真实瞬间。每周更新榜单、观众评论与深度解析，陪你度过每一个需要放松的傍晚。
+        </p>
+        <div class="hero-actions">
+          <a href="/#featured" class="btn-primary">浏览精选短剧</a>
+          <a href="/#latest" class="btn-outline" style="border-color:#2e5a4c;">查看本周更新</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg width="400" height="300" viewBox="0 0 400 300" fill="none" aria-hidden="true" style="max-width:100%; height:auto;">
+          <rect x="20" y="40" width="360" height="220" rx="24" fill="#ffffff" stroke="#e2ded7" stroke-width="1.5" />
+          <rect x="40" y="60" width="120" height="80" rx="12" fill="#f0f7f3" />
+          <rect x="180" y="60" width="180" height="14" rx="7" fill="#e2ded7" />
+          <rect x="180" y="86" width="140" height="14" rx="7" fill="#e2ded7" />
+          <rect x="180" y="112" width="100" height="14" rx="7" fill="#e2ded7" />
+          <rect x="40" y="160" width="320" height="80" rx="12" fill="#fdf0e9" />
+          <circle cx="100" cy="200" r="24" fill="#e86f4a" opacity="0.3" />
+          <circle cx="160" cy="200" r="24" fill="#d9a34a" opacity="0.3" />
+          <circle cx="220" cy="200" r="24" fill="#4a7a9c" opacity="0.3" />
+          <rect x="260" y="188" width="80" height="24" rx="12" fill="#2e5a4c" opacity="0.2" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容三栏布局 -->
+  <div class="container main-layout">
+    <!-- 左侧频道栏 -->
+    <aside class="channel-sidebar">
+      <nav class="channel-nav" aria-label="频道分类">
+        <h3>频道</h3>
+        <ul>
+          <li><a href="/#featured">脱袜短剧</a></li>
+          <li><a href="/#latest">办公室情景</a></li>
+          <li><a href="/#categories">幕后花絮</a></li>
+          <li><a href="/#deep-dive">解压技巧</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">行业动态</a></li>
+          <li><a href="/#faq">新手指南</a></li>
+          <li><a href="/#related">延伸推荐</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- 中间主内容区 -->
+    <main class="main-content">
+      <!-- 主题领域概览 -->
+      <section class="section" id="overview">
+        <div class="section-header">
+          <h2>关于「脱袜短剧」</h2>
+        </div>
+        <div class="overview-text">
+          <p>
+            「脱下班花的袜子」不是一个具体的作品名，而是一个围绕职场解压与日常幽默的短视频内容标签。
+            它涵盖脱袜短剧、办公室情景喜剧、下班后真实记录、幕后花絮等多个方向。当前平台上活跃的
+            创作者超过 40 位，每周新增 8—12 条相关内容，累计播放量已突破 2300 万次。
+          </p>
+          <p>
+            目前值得关注的具体条目包括：《办公室脱袜夜》系列（已更新至第 3 集）、《下班后的袜子哲学》
+            单口短剧、《袜子直播间》互动情景剧，以及每周五更新的《脱袜排行榜》。这些内容以 3—8 分钟的
+            轻量篇幅为主，适合通勤、午休和睡前观看。如果你第一次接触这个方向，建议从《办公室脱袜夜》
+            第 1 集开始，它的节奏和笑点设置最具代表性。
+          </p>
+        </div>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="section" id="featured">
+        <div class="section-header">
+          <h2>精选内容推荐</h2>
+          <a href="/#latest" class="section-link">查看全部 →</a>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-drama01/400/300" alt="办公室脱袜夜第3集剧照" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">脱袜短剧</span>
+              <h3 class="card-title">办公室脱袜夜 第3集</h3>
+              <p class="card-desc">下班后同事集体脱袜的荒诞情景，本集加入新角色“袜子管理员”，冲突升级笑点密集。</p>
+              <div class="card-meta">
+                <span>更新至第3集</span>
+                <span>热度 9.4万</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-philo02/400/300" alt="下班后的袜子哲学单口短剧封面" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">单口短剧</span>
+              <h3 class="card-title">下班后的袜子哲学</h3>
+              <p class="card-desc">用脱口秀方式聊“袜子为什么总在通勤路上消失”，节奏明快，观点犀利，适合通勤听。</p>
+              <div class="card-meta">
+                <span>单集 6 分钟</span>
+                <span>评分 9.1</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-live03/400/300" alt="袜子直播间互动情景剧场景" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">互动情景</span>
+              <h3 class="card-title">袜子直播间</h3>
+              <p class="card-desc">观众投票决定剧情走向的互动短剧，本周主题“谁的袜子先到家”，投票通道开放中。</p>
+              <div class="card-meta">
+                <span>每周五直播</span>
+                <span>参与 1.2万人</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-rank04/400/300" alt="脱袜排行榜每周更新封面" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">榜单</span>
+              <h3 class="card-title">脱袜排行榜 第48期</h3>
+              <p class="card-desc">本周最受欢迎的五条脱袜短剧排名，附创作者幕后采访和观众投票数据。</p>
+              <div class="card-meta">
+                <span>11月24日更新</span>
+                <span>播放 4.7万</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-office05/400/300" alt="办公室袜子大逃杀海报" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">办公室情景</span>
+              <h3 class="card-title">办公室袜子大逃杀</h3>
+              <p class="card-desc">一场因袜子失踪引发的办公室追逐战，全员即兴表演，拍摄花絮比正片更搞笑。</p>
+              <div class="card-meta">
+                <span>时长 8 分钟</span>
+                <span>热度 7.8万</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://picsum.photos/seed/tuowa-behind06/400/300" alt="脱袜短剧幕后花絮照" class="card-img" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag">幕后花絮</span>
+              <h3 class="card-title">《办公室脱袜夜》幕后花絮</h3>
+              <p class="card-desc">导演现场示范“如何优雅地脱袜子”，演员笑场 12 次，剪辑版保留最失控的片段。</p>
+              <div class="card-meta">
+                <span>11月22日上线</span>
+                <span>播放 3.2万</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 最新更新 / 动态 -->
+      <section class="section" id="latest">
+        <div class="section-header">
+          <h2>最新更新与动态</h2>
+        </div>
+        <div class="list-compact">
+          <div class="list-item">
+            <span class="list-num">01</span>
+            <div class="list-content">
+              <div class="list-title">《办公室脱袜夜》第3集上线</div>
+              <div class="list-desc">新角色“袜子管理员”登场，剧情走向出人意料，片尾有彩蛋。</div>
+            </div>
+            <span class="list-date">今天 09:30</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">02</span>
+            <div class="list-content">
+              <div class="list-title">《袜子直播间》第四期投票开启</div>
+              <div class="list-desc">本周主题“谁的袜子先到家”，投票截止至 11 月 27 日 20:00。</div>
+            </div>
+            <span class="list-date">今天 08:15</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">03</span>
+            <div class="list-content">
+              <div class="list-title">《下班后的袜子哲学》单口特别篇上线</div>
+              <div class="list-desc">15 分钟加长版，聊“通勤路上袜子消失的三个科学解释”。</div>
+            </div>
+            <span class="list-date">昨天 21:10</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">04</span>
+            <div class="list-content">
+              <div class="list-title">脱袜排行榜第48期发布</div>
+              <div class="list-desc">本周冠军《办公室袜子大逃杀》，亚军《袜子直播间》第三期。</div>
+            </div>
+            <span class="list-date">11月24日 18:00</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">05</span>
+            <div class="list-content">
+              <div class="list-title">新创作者入驻：@袜子导演老李</div>
+              <div class="list-desc">带来《地铁脱袜观察日记》系列，首条视频播放量破 2 万。</div>
+            </div>
+            <span class="list-date">11月23日 14:20</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">06</span>
+            <div class="list-content">
+              <div class="list-title">《办公室脱袜夜》幕后花絮上线</div>
+              <div class="list-desc">导演现场示范脱袜技巧，演员笑场合集，彩蛋含第4集预告。</div>
+            </div>
+            <span class="list-date">11月22日 20:00</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">07</span>
+            <div class="list-content">
+              <div class="list-title">“脱袜短剧”标签新增 3 条内容</div>
+              <div class="list-desc">《袜子失踪案》《办公室脱袜指南》《下班后的第一件事》。</div>
+            </div>
+            <span class="list-date">11月21日 16:45</span>
+          </div>
+          <div class="list-item">
+            <span class="list-num">08</span>
+            <div class="list-content">
+              <div class="list-title">观众最喜爱片段投票结果公布</div>
+              <div class="list-desc">《办公室脱袜夜》第2集“袜子管理员初登场”以 3200 票胜出。</div>
+            </div>
+            <span class="list-date">11月20日 12:00</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="section" id="categories">
+        <div class="section-header">
+          <h2>内容分类</h2>
+        </div>
+        <div class="category-grid">
+          <a href="/#featured" class="category-item">脱袜短剧</a>
+          <a href="/#latest" class="category-item">办公室情景</a>
+          <a href="/#featured" class="category-item">单口喜剧</a>
+          <a href="/#latest" class="category-item">互动直播</a>
+          <a href="/#featured" class="category-item">幕后花絮</a>
+          <a href="/#deep-dive" class="category-item">解压技巧</a>
+          <a href="/#news" class="category-item">行业动态</a>
+          <a href="/#related" class="category-item">延伸推荐</a>
+        </div>
+      </section>
+
+      <!-- 深度解析正文 -->
+      <section class="section" id="deep-dive">
+        <div class="section-header">
+          <h2>深度解析：脱袜短剧的类型与评判维度</h2>
+        </div>
+        <div class="deep-dive">
+          <h3>脱袜短剧的三种常见类型</h3>
+          <p>
+            目前平台上活跃的脱袜短剧主要分为三种类型：情景喜剧型、单口叙事型和互动直播型。情景喜剧型以
+            《办公室脱袜夜》为代表，通常有固定角色和场景，每集围绕一个与“脱袜”相关的荒诞事件展开，
+            时长在 5—8 分钟。单口叙事型以《下班后的袜子哲学》为代表，由一位创作者面对镜头讲述与袜子、
+            通勤、办公室相关的观察和段子，节奏更依赖个人风格。互动直播型以《袜子直播间》为代表，
+            观众通过投票决定剧情走向，具有不可复现的现场感。
+          </p>
+          <h3>判断一个条目值不值得花时间</h3>
+          <p>
+            可以从三个维度快速判断：第一，看更新稳定性。每周固定更新的系列通常质量更有保障，比如
+            《办公室脱袜夜》保持每周四更新，《袜子直播间》每周五直播。第二，看评论区讨论焦点。
+            如果评论集中在具体情节或角色上，说明内容有记忆点；如果评论只有“好笑”二字，可能属于快消型。
+            第三，看创作者是否持续深耕同一方向。@袜子导演老李 虽然刚入驻，但连续三条视频都围绕
+            地铁脱袜观察，垂直度很高，值得关注后续。
+          </p>
+          <h3>同类条目怎么比较</h3>
+          <p>
+            比较脱袜短剧时，建议不要只看播放量。播放量高可能只是标题吸引人，但完播率和互动率更能
+            反映内容质量。例如《办公室袜子大逃杀》播放量 7.8 万，完播率 68%，属于中上水平；
+            《下班后的袜子哲学》单集播放量 5.2 万，但完播率高达 82%，说明内容粘性更强。
+            另外，可以关注“观众最喜爱片段投票”这类社区活动，它往往能反映真实观众的偏好，比
+            单纯的数据更有参考价值。
+          </p>
+          <h3>消费顺序建议</h3>
+          <ul>
+            <li>第一次接触：从《办公室脱袜夜》第1集开始，了解基本设定和笑点风格。</li>
+            <li>想轻松下饭：选《下班后的袜子哲学》单口短剧，每集独立，不需要追更。</li>
+            <li>喜欢参与感：关注《袜子直播间》每周五直播，投票决定剧情走向。</li>
+            <li>想了解幕后：看《办公室脱袜夜》幕后花絮，比正片更放松。</li>
+            <li>想发现新内容：每周一查看“脱袜排行榜”，了解上周热门条目。</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 体验指南 / 消费路径 -->
+      <section class="section" id="guide">
+        <div class="section-header">
+          <h2>体验指南：从哪开始看</h2>
+        </div>
+        <div class="list-compact" style="padding: 20px 24px; display: flex; flex-direction: column; gap: 16px;">
+          <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8;">
+            <strong style="color: var(--text-primary);">第一步：先看一部完整的短剧。</strong>
+            推荐《办公室脱袜夜》第1集，时长 7 分钟，能完整感受这个方向的叙事节奏和笑点密度。
+          </p>
+          <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8;">
+            <strong style="color: var(--text-primary);">第二步：对比一种不同类型。</strong>
+            看完情景喜剧后，可以点开《下班后的袜子哲学》任意一集，感受单口叙事和情景喜剧的差异，
+            找到自己更偏好的形式。
+          </p>
+          <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8;">
+            <strong style="color: var(--text-primary);">第三步：关注一个持续更新的系列。</strong>
+            《袜子直播间》每周五直播，适合喜欢参与讨论的观众；《办公室脱袜夜》每周四更新，
+            适合习惯追剧的观众。选择一个加入追更列表即可。
+          </p>
+          <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8;">
+            <strong style="color: var(--text-primary);">第四步：判断是否值得长期投入。</strong>
+            连续看三集之后，如果仍然对角色和情节有期待，说明这个系列适合你；如果觉得节奏重复，
+            可以转向“脱袜排行榜”寻找其他创作者的内容。
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="section-header">
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>脱袜短剧一般多久更新一次？</summary>
+            <div class="faq-answer">
+              《办公室脱袜夜》每周四更新一集，《袜子直播间》每周五直播，《下班后的袜子哲学》为不定期更新，
+              通常每两周发布一条单口视频。脱袜排行榜每周一更新。
+            </div>
+          </details>
+          <details>
+            <summary>《办公室脱袜夜》和《袜子直播间》有什么区别？</summary>
+            <div class="faq-answer">
+              前者是预先拍摄的情景喜剧，有固定剧本和角色，每集时长 5—8 分钟；后者是直播互动形式，
+              观众投票决定剧情走向，每周五晚 8 点开播，回放会在次日上线。
+            </div>
+          </details>
+          <details>
+            <summary>第一次接触这个方向，从哪个条目开始看比较好？</summary>
+            <div class="faq-answer">
+              建议从《办公室脱袜夜》第1集开始，它的节奏和笑点设置最具代表性，能快速判断是否喜欢这类内容。
+              如果偏好单口形式，可以直接看《下班后的袜子哲学》任意一集。
+            </div>
+          </details>
+          <details>
+            <summary>脱袜短剧的评判标准通常是什么？</summary>
+            <div class="faq-answer">
+              主要看三个维度：完播率（是否让人看完）、互动率（评论和投票参与度）、以及更新稳定性。
+              播放量高但完播率低的条目通常属于快消型，而完播率高的条目往往有更强的观众粘性。
+            </div>
+          </details>
+          <details>
+            <summary>怎么参与《袜子直播间》的剧情投票？</summary>
+            <div class="faq-answer">
+              每周五晚直播期间，直播间页面会开放投票入口，观众可以实时选择下一幕的剧情走向。
+              投票截止到直播结束前 10 分钟，结果会直接影响当晚的结局。
+            </div>
+          </details>
+          <details>
+            <summary>《办公室脱袜夜》第4集什么时候上线？</summary>
+            <div class="faq-answer">
+              根据更新节奏，第4集预计在 2026 年 11 月 27 日（周四）上线。幕后花絮中已包含第4集预告片段，
+              可以提前了解新加入的角色。
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="section" id="comments">
+        <div class="section-header">
+          <h2>观众评论</h2>
+        </div>
+        <div class="comment-grid">
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">小</div>
+              <span class="comment-name">小鹿不迷路</span>
+            </div>
+            <p class="comment-text">《办公室脱袜夜》第3集那个袜子管理员出场太突然了，笑到拍桌子，期待第4集。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">阿</div>
+              <span class="comment-name">阿茶今天早睡</span>
+            </div>
+            <p class="comment-text">《下班后的袜子哲学》加长版值回时间，通勤路上听完了，观点很犀利。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">K</div>
+              <span class="comment-name">Kiko在加班</span>
+            </div>
+            <p class="comment-text">《袜子直播间》第四期投票我投了“袜子先到家”，希望别翻车。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">老</div>
+              <span class="comment-name">老张看剧</span>
+            </div>
+            <p class="comment-text">脱袜排行榜第48期冠军实至名归，《办公室袜子大逃杀》确实好看，节奏紧凑。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">南</div>
+              <span class="comment-name">南瓜马车</span>
+            </div>
+            <p class="comment-text">第一次看《办公室脱袜夜》第1集，感觉一般，但第2集开始进入状态了，坚持看下去是对的。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">叶</div>
+              <span class="comment-name">叶小鱼</span>
+            </div>
+            <p class="comment-text">幕后花絮比正片还放松，导演示范脱袜子那段反复看了三遍。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">L</div>
+              <span class="comment-name">Luna下班了</span>
+            </div>
+            <p class="comment-text">@袜子导演老李 的地铁脱袜观察日记很真实，期待更新。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">大</div>
+              <span class="comment-name">大橘为重</span>
+            </div>
+            <p class="comment-text">《袜子直播间》第三期回放看完了，互动环节有点拖，但结尾反转不错。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">松</div>
+              <span class="comment-name">松子糖</span>
+            </div>
+            <p class="comment-text">《下班后的袜子哲学》单集6分钟刚刚好，适合午休看，不耽误下午上班。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">白</div>
+              <span class="comment-name">白桃乌龙</span>
+            </div>
+            <p class="comment-text">排行榜每周一更新很准时，已经养成习惯看榜单找新内容了。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">小</div>
+              <span class="comment-name">小满没烦恼</span>
+            </div>
+            <p class="comment-text">《办公室脱袜夜》第3集结尾彩蛋是第4集预告吗？期待值拉满。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">周</div>
+              <span class="comment-name">周末不加班</span>
+            </div>
+            <p class="comment-text">互动直播的形式挺有意思，但投票时间有点短，建议延长到直播结束。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">橘</div>
+              <span class="comment-name">橘子汽水</span>
+            </div>
+            <p class="comment-text">最近新上的几条脱袜短剧质量参差不齐，还是老系列更稳。</p>
+          </div>
+          <div class="comment-item">
+            <div class="comment-header">
+              <div class="comment-avatar">飞</div>
+              <span class="comment-name">飞飞飞飞飞</span>
+            </div>
+            <p class="comment-text">刚发现这个方向，一口气看了五集，现在满脑子都是袜子。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="section" id="news">
+        <div class="section-header">
+          <h2>相关资讯</h2>
+        </div>
+        <div class="list-compact" style="padding: 0 20px;">
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news01/600/400" alt="办公室脱袜夜第3集上线新闻配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">《办公室脱袜夜》第3集上线，新角色引发观众热议</div>
+              <div class="news-date">2026-11-25</div>
+              <div class="news-summary">第3集引入“袜子管理员”角色，单集播放量在 12 小时内突破 1.5 万，评论区讨论集中在角色动机上。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news02/600/400" alt="袜子直播间第四期投票开启配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">袜子直播间第四期投票开启，主题定为“谁的袜子先到家”</div>
+              <div class="news-date">2026-11-25</div>
+              <div class="news-summary">本周五晚 8 点直播，投票通道已开放，截止时间为 11 月 27 日 20:00，目前已有 3200 人参与。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news03/600/400" alt="脱袜排行榜第48期发布配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">脱袜排行榜第48期发布，《办公室袜子大逃杀》登顶</div>
+              <div class="news-date">2026-11-24</div>
+              <div class="news-summary">本期榜单根据完播率和互动率综合排名，冠军《办公室袜子大逃杀》完播率 68%，亚军为《袜子直播间》第三期。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news04/600/400" alt="新创作者袜子导演老李入驻配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">新创作者“袜子导演老李”入驻，地铁脱袜观察日记系列上线</div>
+              <div class="news-date">2026-11-23</div>
+              <div class="news-summary">首条视频《地铁脱袜观察日记01》播放量突破 2 万，创作者表示后续将保持每周两更的节奏。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news05/600/400" alt="下班后的袜子哲学特别篇上线配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">《下班后的袜子哲学》推出 15 分钟特别篇，聊通勤袜子消失之谜</div>
+              <div class="news-date">2026-11-24</div>
+              <div class="news-summary">特别篇是常规单集的两倍时长，上线 6 小时播放量突破 1.8 万，评论区讨论集中在“袜子消失的三个科学解释”。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="https://picsum.photos/seed/tuowa-news06/600/400" alt="观众最喜爱片段投票结果公布配图" class="news-img" width="120" height="80" loading="lazy">
+            <div class="news-content">
+              <div class="news-title">观众最喜爱片段投票结果公布，《办公室脱袜夜》第2集胜出</div>
+              <div class="news-date">2026-11-20</div>
+              <div class="news-summary">“袜子管理员初登场”片段以 3200 票获得第一，第二名是《袜子直播间》第二期“脱袜接力”环节。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="section" id="related">
+        <div class="section-header">
+          <h2>相关推荐</h2>
+        </div>
+        <div class="tag-cloud">
+          <a href="/#featured">办公室情景喜剧</a>
+          <a href="/#featured">单口叙事短剧</a>
+          <a href="/#latest">互动直播回放</a>
+          <a href="/#deep-dive">解压内容消费指南</a>
+          <a href="/#news">创作者入驻动态</a>
+          <a href="/#latest">每周更新榜单</a>
+          <a href="/#featured">幕后花絮合集</a>
+          <a href="/#comments">观众投票精选</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- 右侧辅助栏 -->
+    <aside class="sidebar-right">
+      <div class="sidebar-widget">
+        <h3>热门榜单</h3>
+        <ul class="rank-list">
+          <li><span class="rank-num">1</span> 办公室脱袜夜 第3集</li>
+          <li><span class="rank-num">2</span> 下班后的袜子哲学</li>
+          <li><span class="rank-num">3</span> 袜子直播间 第四期</li>
+          <li><span class="rank-num">4</span> 办公室袜子大逃杀</li>
+          <li><span class="rank-num">5</span> 脱袜排行榜 第48期</li>
+        </ul>
+      </div>
+      <div class="sidebar-widget">
+        <h3>热门标签</h3>
+        <div class="tag-cloud">
+          <a href="/#featured">脱袜短剧</a>
+          <a href="/#latest">办公室情景</a>
+          <a href="/#featured">单口喜剧</a>
+          <a href="/#latest">互动直播</a>
+          <a href="/#featured">幕后花絮</a>
+          <a href="/#deep-dive">解压技巧</a>
+          <a href="/#news">行业动态</a>
+          <a href="/#related">延伸推荐</a>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <h3>本周更新</h3>
+        <p style="font-size:14px; color: var(--text-secondary); line-height:1.7;">
+          11月25日：办公室脱袜夜 第3集<br>
+          11月24日：脱袜排行榜 第48期<br>
+          11月23日：新创作者入驻<br>
+          11月22日：幕后花絮上线
+        </p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- 页尾 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">脱下班花的袜子</span>
+          <p>聚焦职场解压与日常幽默的短视频品牌，用轻松的方式记录下班后的真实瞬间。</p>
+        </div>
+        <div class="footer-col">
+          <h4>内容</h4>
+          <ul>
+            <li><a href="/#featured">精选短剧</a></li>
+            <li><a href="/#latest">最新更新</a></li>
+            <li><a href="/#categories">分类入口</a></li>
+            <li><a href="/#deep-dive">深度解析</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>社区</h4>
+          <ul>
+            <li><a href="/#comments">观众评论</a></li>
+            <li><a href="/#faq">常见问题</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#related">相关推荐</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>关于</h4>
+          <ul>
+            <li><a href="/#overview">品牌介绍</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#featured">创作者入驻</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 脱下班花的袜子 · 内容均为示例条目，仅供参考</span>
+        <span>数据更新于 2026 年 11 月 25 日</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      // 搜索功能
+      const searchInput = document.getElementById('searchInput');
+      const searchBtn = document.getElementById('searchBtn');
+      const noResults = document.createElement('div');
+      noResults.className = 'no-results';
+      noResults.textContent = '没有找到相关内容，换个关键词试试。';
+      
+      const mainContent = document.querySelector('.main-content');
+      mainContent.insertBefore(noResults, mainContent.firstChild);
+
+      function performSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+        const cards = document.querySelectorAll('.card');
+        const listItems = document.querySelectorAll('.list-item');
+        const commentItems = document.querySelectorAll('.comment-item');
+        const newsItems = document.querySelectorAll('.news-item');
+        const allItems = [...cards, ...listItems, ...commentItems, ...newsItems];
+        
+        if (!query) {
+          allItems.forEach(el => el.style.display = '');
+          noResults.style.display = 'none';
+          return;
+        }
+
+        let visibleCount = 0;
+        allItems.forEach(el => {
+          const text = el.textContent.toLowerCase();
+          if (text.includes(query)) {
+            el.style.display = '';
+            visibleCount++;
+          } else {
+            el.style.display = 'none';
+          }
+        });
+
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+
+      searchBtn.addEventListener('click', performSearch);
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          performSearch();
+        }
+      });
+      searchInput.addEventListener('input', function() {
+        if (this.value.trim() === '') {
+          performSearch();
+        }
+      });
+    })();
+  </script>
+</body>
+            </html>
